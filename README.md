@@ -67,7 +67,9 @@ that way there is no window where the site is down.
 
 ## Notes
 
-- Fonts are self-hosted, so there are no third-party requests at runtime.
+- Fonts and images are self-hosted. The only third-party request is the
+  Cloudflare Web Analytics beacon (cookieless, so no consent banner is needed).
+  Stats live at <https://dash.cloudflare.com> under Web Analytics.
 - Images are webp, resized to 640px (2× the display size) and lazy-loaded below
   the fold.
 - The clock in the header renders in `Asia/Kolkata` regardless of the visitor's
