@@ -640,3 +640,19 @@ a{ color:inherit; text-decoration:none; }
   .cs-title{ font-size:26px; letter-spacing:-1.2px; }
   .cs-lede{ font-size:17px; line-height:26px; }
 }
+
+/* featured case-study card */
+.card__tag{
+  display:inline-block;
+  margin-left:6px;
+  padding:1px 6px;
+  border-radius:4px;
+  background:var(--chip);
+  font-family:var(--mono);
+  font-size:9px;
+  font-weight:500;
+  letter-spacing:-.18px;
+  text-transform:uppercase;
+  color:var(--muted);
+  vertical-align:1px;
+}
