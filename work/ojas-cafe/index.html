@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ojas Café — Hand-Coded Café Website Case Study | Thouheeth Kabir</title>
-<meta name="description" content="A hand-coded website for Ojas Café in Palani — a 133-item menu the owner edits without a developer, and no monthly platform fee. Case study by Thouheeth Kabir.">
+<title>Ojas Café — Brand, Website &amp; Launch Case Study</title>| Thouheeth Kabir</title>
+<meta name="description" content="Brand identity, menu, hand-coded website, POS and loyalty setup, and the launch for Ojas Café in Palani. A full case study by Thouheeth Kabir.">
 <link rel="canonical" href="https://www.thouheethkabir.com/work/ojas-cafe/">
 
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.thouheethkabir.com/work/ojas-cafe/">
-<meta property="og:title" content="Ojas Café — Hand-Coded Café Website Case Study">
-<meta property="og:description" content="A hand-coded website for Ojas Café in Palani — a 133-item menu the owner edits without a developer, and no monthly platform fee.">
+<meta property="og:title" content="Ojas Café — Brand, Website &amp; Launch Case Study">
+<meta property="og:description" content="Brand identity, menu, hand-coded website, POS and loyalty setup, and the launch for Ojas Café in Palani.">
 <meta property="og:image" content="https://www.thouheethkabir.com/assets/img/ojas-cafe.webp">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.thouheethkabir.com/assets/img/ojas-cafe.webp">
@@ -30,20 +30,39 @@
   "@graph": [
     {
       "@type": "CreativeWork",
-      "name": "Ojas Café — hand-coded website",
+      "name": "Ojas Café — brand, website and launch",
       "about": "Café and restaurant website",
       "url": "https://www.thouheethkabir.com/work/ojas-cafe/",
       "image": "https://www.thouheethkabir.com/assets/img/ojas-cafe.webp",
-      "description": "A hand-coded static website for Ojas Café in Palani, Tamil Nadu, built so the owner can maintain the menu and details without a developer.",
-      "creator": { "@type": "Person", "name": "Thouheeth Kabir", "url": "https://www.thouheethkabir.com/" },
-      "keywords": "café website, restaurant website, hand-coded website, static site, Cloudflare Pages"
+      "description": "Brand identity, menu design, hand-coded website, POS and loyalty setup, and launch for Ojas Café in Palani, Tamil Nadu.",
+      "creator": {
+        "@type": "Person",
+        "name": "Thouheeth Kabir",
+        "url": "https://www.thouheethkabir.com/"
+      },
+      "keywords": "café branding, restaurant website, hand-coded website, Petpooja, Razorpay POS, Reelo loyalty, café launch"
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.thouheethkabir.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://www.thouheethkabir.com/#projects" },
-        { "@type": "ListItem", "position": 3, "name": "Ojas Café", "item": "https://www.thouheethkabir.com/work/ojas-cafe/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.thouheethkabir.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Work",
+          "item": "https://www.thouheethkabir.com/#projects"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ojas Café",
+          "item": "https://www.thouheethkabir.com/work/ojas-cafe/"
+        }
       ]
     }
   ]
@@ -86,9 +105,9 @@
   </nav>
 
   <header class="band cs-head">
-    <p class="cs-cat">Café &amp; Restaurant &middot; Hand-coded</p>
+    <p class="cs-cat">Café &amp; Restaurant &middot; Brand, website &amp; launch</p>
     <h1 class="cs-title">Ojas Café</h1>
-    <p class="cs-lede">A café in Palani, Tamil Nadu, with a 133-item menu its owner updates personally &mdash; no developer, no CMS, no monthly platform fee.</p>
+    <p class="cs-lede">Palani&rsquo;s first air-conditioned café. I worked on this one end to end &mdash; brand identity, menu, website, the systems that run the counter, and the launch itself.</p>
   </header>
 
   <section class="band cs-shot" aria-label="Screenshot">
@@ -100,39 +119,90 @@
   <section class="band" aria-labelledby="s-brief">
     <h2 class="s-title" id="s-brief">The brief</h2>
     <div class="prose">
-      <p>Ojas Café was opening in Palani and needed a site ready before launch night &mdash; somewhere Instagram traffic could land, read the full menu and get directions to the door.</p>
-      <p>One constraint shaped the whole build. The café is a small independent business, not a chain with a marketing team. Whoever runs it had to be able to change a price, add a dish or correct the opening hours themselves, on a laptop, without calling a developer and without paying a platform fee every month for the privilege.</p>
+      <p>A new café opening in Palani, a temple town in Tamil Nadu. Nothing existed yet &mdash; no name treatment, no menu design, no website, no systems. The opening date was fixed and everything had to be ready before it.</p>
+      <p>This wasn&rsquo;t a website project that grew. It was a launch, and the website was one part of it.</p>
     </div>
   </section>
 
-  <section class="band" aria-labelledby="s-approach">
-    <h2 class="s-title" id="s-approach">The approach</h2>
+  <section class="band" aria-labelledby="s-position">
+    <h2 class="s-title" id="s-position">Positioning</h2>
     <div class="prose">
-      <p>I built it as hand-coded HTML, CSS and JavaScript rather than reaching for a site builder. A café menu is structured, repetitive data &mdash; exactly the thing a plain file handles well and a page builder makes tedious.</p>
-      <p>All 133 dishes live in a single text file. Changing a price means opening that file, editing a number and saving. A settings block at the top of the main script holds the phone number, WhatsApp link, Google Maps link, address, opening hours and the launch offer; fill those in once and every Call button, every Directions link, the footer and the <em>Open now</em> badge update across all four pages at once.</p>
-      <p>There is no build step and nothing to install. The whole site can be maintained in Notepad or TextEdit, and it deploys as static files &mdash; which is also why it costs nothing to host.</p>
+      <p>The strategy we settled on was <strong>accessible premium</strong>: the trending metro-café food people in Palani see on Instagram but can&rsquo;t get locally &mdash; loaded fries, wings, waffles, brownie shakes, kunafa &mdash; at tier-3 prices, in an air-conditioned room.</p>
+      <p>That decision drove everything downstream. The audience is college students, young adults and families visiting the temple, so the brand had to feel warm, loud and playful rather than minimalist-luxury. Premium <em>feel</em>, not premium <em>price</em>. Every piece of copy is written for a twenty-year-old: short, confident, punchy.</p>
     </div>
   </section>
 
-  <section class="band" aria-labelledby="s-scope">
-    <h2 class="s-title" id="s-scope">What I built</h2>
+  <section class="band" aria-labelledby="s-brand">
+    <h2 class="s-title" id="s-brand">Brand identity</h2>
+    <div class="prose">
+      <p>The mark is a bitten donut &mdash; an <strong>O</strong> with a bite taken out of it. A bite mark reads as appetite and enjoyment; the closed circle reads as completeness and togetherness. It sits with the Ojas wordmark and a small &ldquo;Café&rdquo; descriptor.</p>
+      <p>The tagline is <strong>&ldquo;Take the Bite!&rdquo;</strong> &mdash; three words, imperative, and it works equally as a headline, a footer sign-off and a page title.</p>
+    </div>
     <ul class="scope">
-      <li>Four hand-coded pages &mdash; home, menu, gallery and visit</li>
-      <li>A 133-item menu driven by one owner-editable data file</li>
-      <li>A single settings block controlling contact details, hours and offers site-wide</li>
+      <li>Ojas Orange <code>#DF3805</code> for headings, CTAs and the bite mark</li>
+      <li>Deep Brown <code>#733108</code> for item names and body text</li>
+      <li>Cream <code>#F6EFE4</code> as the default surface, carried from the printed menu</li>
+      <li>Climate Crisis for display type, Akaya Kanadaka for everything else</li>
+      <li>Torn orange borders, hand-drawn food illustrations and dotted leader lines</li>
+    </ul>
+    <div class="prose">
+      <p>Neither typeface has a bold weight, so hierarchy is built from size, colour, case and letter-spacing instead of faux-bold &mdash; a constraint that kept the whole system disciplined.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="s-menu">
+    <h2 class="s-title" id="s-menu">The menu</h2>
+    <div class="prose">
+      <p>133 dishes, structured as data rather than design. The printed menu card became the design system for everything else: cream surfaces, torn orange frame, category headings with a line illustration beside them, item rows with a dotted leader running to the price.</p>
+      <p>On the website that same menu lives in a single plain file. Adding a dish or changing a price means editing one line, which is the difference between a menu that stays current and one that quietly goes stale.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="s-site">
+    <h2 class="s-title" id="s-site">The website</h2>
+    <div class="prose">
+      <p>Four pages &mdash; home, menu, gallery and visit &mdash; hand-coded in plain HTML, CSS and JavaScript with no build step, deployed as static files. Most visitors arrive from the Instagram bio link on a phone, often on 4G, so it was designed at 390px first and kept deliberately light.</p>
+      <p>A settings block at the top of one script holds the phone number, WhatsApp link, Google Maps link, address, hours and the opening offer. Fill those in once and every Call button, every Directions link, the footer and the <em>Open now</em> badge update across all four pages together.</p>
+    </div>
+    <ul class="scope">
+      <li>Mobile-first layouts built for Instagram traffic</li>
+      <li>Menu preview on the home page, full menu on its own page</li>
       <li>Photo and video gallery</li>
-      <li>Visit page with map, address, hours and a live &ldquo;Open now&rdquo; badge</li>
+      <li>LocalBusiness structured data for Google &mdash; hours, location, cuisine, phone</li>
       <li>A holding page that ran until opening night</li>
-      <li>Mobile-first layouts, since most visitors arrive from Instagram</li>
-      <li>Written documentation so the owner can maintain it unaided</li>
+      <li>A plain-English guide so the owner can maintain it unaided</li>
     </ul>
   </section>
 
-  <section class="band" aria-labelledby="s-outcome">
-    <h2 class="s-title" id="s-outcome">The outcome</h2>
+  <section class="band" aria-labelledby="s-ops">
+    <h2 class="s-title" id="s-ops">Operations, billing and loyalty</h2>
     <div class="prose">
-      <p>The café owns its site outright. There is no subscription to lapse, no plugin to break and no vendor to depend on &mdash; and because it is static, it loads fast on the patchy mobile connections most of its customers are browsing on.</p>
-      <p>It is the same approach I used to build the site you are reading now.</p>
+      <p>A café doesn&rsquo;t open because the website is finished. The counter has to work on day one, so I helped choose and set up the stack that runs it:</p>
+    </div>
+    <ul class="scope">
+      <li><strong>Petpooja</strong> &mdash; point of sale and billing, with the full menu and pricing loaded in</li>
+      <li><strong>Razorpay POS</strong> &mdash; card and UPI payments at the counter</li>
+      <li><strong>Reelo</strong> &mdash; loyalty and WhatsApp CRM, so a first visit can turn into a second</li>
+      <li><strong>Google Business Profile</strong> &mdash; the listing most local customers actually find first</li>
+      <li><strong>Instagram</strong> &mdash; <span class="nowrap">@ojas_cafe</span>, the main discovery channel</li>
+    </ul>
+    <div class="prose">
+      <p>Reelo matters more than it looks. A café in a town this size lives on people coming back, and a loyalty programme wired into WhatsApp reaches customers where they already are &mdash; without buying ads to reach people who have already visited once.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="s-launch">
+    <h2 class="s-title" id="s-launch">Marketing and launch</h2>
+    <div class="prose">
+      <p>The launch ran in three stages rather than one. A pre-launch card campaign went out through the owner&rsquo;s existing pharmacy &mdash; an audience already in hand, which is far cheaper than buying attention cold. That was followed by a soft launch to test the kitchen at real volume, and then a grand inauguration.</p>
+      <p>The website and the holding page were sequenced to match: the holding page carried the opening date and the Instagram link until opening night, then handed over to the full site.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="s-next">
+    <h2 class="s-title" id="s-next">What&rsquo;s next</h2>
+    <div class="prose">
+      <p>The work didn&rsquo;t stop at opening. In progress is a cinematic scroll experience for the home page built from real footage of the café, including a reconstructed 3D walk from the entrance to the counter &mdash; so someone deciding where to go can see the room before they arrive.</p>
     </div>
   </section>
 
@@ -141,8 +211,9 @@
     <ul class="contact">
       <li><span class="contact__label">Sector</span><span class="contact__value">Café &amp; Restaurant</span></li>
       <li><span class="contact__label">Location</span><span class="contact__value">Palani, Tamil Nadu</span></li>
+      <li><span class="contact__label">Scope</span><span class="contact__value">Brand, menu, website, ops &amp; launch</span></li>
       <li><span class="contact__label">Built with</span><span class="contact__value">Hand-coded HTML, CSS &amp; JavaScript</span></li>
-      <li><span class="contact__label">Hosting</span><span class="contact__value">Cloudflare Pages</span></li>
+      <li><span class="contact__label">Stack</span><span class="contact__value">Petpooja &middot; Razorpay POS &middot; Reelo</span></li>
       <li><span class="contact__label">Live site</span><a class="contact__value" href="https://ojascafe.in/" target="_blank" rel="noopener">ojascafe.in</a></li>
     </ul>
   </section>
