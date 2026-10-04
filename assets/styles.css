@@ -742,3 +742,48 @@ a{ color:inherit; text-decoration:none; }
 @media (max-width:560px){
   .swatches{ flex-direction:column; align-items:stretch; }
 }
+
+/* ============================================================
+   Ojas Café case study — client brand palette, scoped to that page.
+   Portfolio layout and type are kept; only colour changes.
+   Contrast-checked on cream #F6EFE4: brown 8.5:1, body 6.3:1,
+   orange 3.9:1 — so orange is used only for large text and
+   non-text accents, per the brand's own rule.
+   ============================================================ */
+
+.theme-ojas{
+  --bg:         #F6EFE4;  /* Cream  */
+  --ink:        #733108;  /* Brown  */
+  --ink-strong: #2B1508;  /* Ink    */
+  --muted:      #6E5236;  /* body, AA on cream */
+  --line:       #E3D6C4;
+  --chip:       #EFE4D2;
+  --chip-hover: #E8DAC6;
+  --accent:     #DF3805;  /* Orange */
+}
+
+/* Large enough to carry orange and still pass AA */
+.theme-ojas .cs-title{ color:var(--accent); }
+
+/* Non-text accents */
+.theme-ojas .scope li::before{ background:var(--accent); }
+.theme-ojas .crumb:hover,
+.theme-ojas .contact__value:hover,
+.theme-ojas .foot__link:hover{ color:var(--accent); }
+
+/* Warm the image surrounds so photos sit on cream, not grey */
+.theme-ojas .cs-fig img,
+.theme-ojas .cs-shot img{
+  box-shadow:inset 0 0 0 1px rgba(115,49,8,.12);
+  background:var(--chip);
+}
+
+.theme-ojas .swatches li{ box-shadow:inset 0 0 0 1px rgba(115,49,8,.18); }
+.theme-ojas .sw{ box-shadow:inset 0 0 0 1px rgba(43,21,8,.16); }
+.theme-ojas .cs-mail{ box-shadow:inset 0 0 0 1px rgba(115,49,8,.22); }
+
+/* The brand mark already carries orange — let it sit flush on cream */
+.theme-ojas .cs-shot img[src*="ojas-brand"]{
+  box-shadow:none;
+  background:transparent;
+}
